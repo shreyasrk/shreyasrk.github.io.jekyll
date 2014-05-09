@@ -31,10 +31,10 @@ I wanted to add some lines to how to setup your own blog via Octopress too.
 	4. Make sure you [deploy your site properly](http://octopress.org/docs/deploying/github/)
 	5. Start Blogging!
 
-Now for the missing part. Octopress provides you a clean way of setting up. However, there are some glitches during continuous blogging. Here's my extra findings:
+Now for the missing part. Octopress provides you a clean way of setting up. However, there are some glitches during continuous blogging - Git might give problems or something will break down so here's my extra findings:
 
-	+ When you write/edit posts, first commit the changes
-	+ Generate the site using `bundle exec rake generate` and deploy t to `master` branch via `bundle exec rake deploy`. This will first add site to master branch.
-	+  Push source branch to your repo too. This will ensure you can work anywhere you want with a simple pull/clone.
+* When you write/edit posts, first commit the changes
+* Generate the site using `bundle exec rake generate` and deploy to `master` branch via `bundle exec rake deploy`. This will first add the site.
+* Push source branch to your repo too (`git push origin source`). This will ensure you can work anywhere you want with a simple pull/clone. 
 
 Enjoy!
