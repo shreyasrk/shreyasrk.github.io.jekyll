@@ -25,11 +25,11 @@ Good that if I'm just scribbling, I'm not just writing stuff up. I'm programming
 
 I wanted to add some lines to how to setup your own blog via Octopress too.
 
-	1. Get yourself a GitHub user, please. You won't regret.
-	2. Setup your site via [GitHub Site Hosting](https://pages.github.com/)
-	3. Install the [Octopress-Jekyll](http://octopress.org/docs/setup/) bundle.
-	4. Make sure you [deploy your site properly](http://octopress.org/docs/deploying/github/)
-	5. Start Blogging!
+* Get yourself a GitHub user, please. You won't regret.
+* Setup your site via [GitHub Site Hosting](https://pages.github.com/)
+* Install the [Octopress-Jekyll](http://octopress.org/docs/setup/) bundle.
+* Make sure you [deploy your site properly](http://octopress.org/docs/deploying/github/)
+* Start Blogging!
 
 Now for the missing part. Octopress provides you a clean way of setting up. However, there are some glitches during continuous blogging - Git might give problems or something will break down so here's my extra findings:
 
