@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Development | Personal Rant of a curious mind]]></title>
+  <link href="http://shreyasrk.github.io/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://shreyasrk.github.io/"/>
+  <updated>2014-05-12T21:41:39+05:30</updated>
+  <id>http://shreyasrk.github.io/</id>
+  <author>
+    <name><![CDATA[Shreyas]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Traits of a Great Developer]]></title>
+    <link href="http://shreyasrk.github.io/blog/2014/05/12/traits-of-a-software-developer/"/>
+    <updated>2014-05-12T21:28:49+05:30</updated>
+    <id>http://shreyasrk.github.io/blog/2014/05/12/traits-of-a-software-developer</id>
+    <content type="html"><![CDATA[<p>What makes you a great software developer? Is it the knowledge of computer Science and mathematics, the awesomeness of showing your flair by doing some cool projects or some inbuilt quality to tweak around, read code and do things accordingly?</p>
+
+<p>None of them, although Math/Computer Science can teach you logical abilities &ndash; one of the fundamental qualities of a developer. I realized it delves down to the four basic things (ingredients, if you may call) that you can be an awesome programmer.</p>
+
+<p>Be a master in the below areas:</p>
+
+<ul>
+<li>The operating system that you work in &ndash; Be it the ubercool Linux, buggy Windows or the wannabe Mac, you must know all/most of it&rsquo;s OS commands. And these can be learn only via the terminal/command prompt.</li>
+<li>A programming language. Know it in-and-out. Try to work everything of an idea into the same language throughout and see if you can dig out the hidden features of them in the process.</li>
+<li>An editor &ndash; vim, emacs, sublime or an IDE of your choice. By good means to know all of it&rsquo;s keyboard shortcuts, the usage of all of it&rsquo;s features and to know how to tweak them.</li>
+<li>Your favorite Version control system &ndash; git, svn, mercurial or whatever. Be awesome in a way that you can even teach others in the shortest and quickest way possible.</li>
+</ul>
+
+
+<p>It delves down to only these four. And nothing else. Of course, as time evolves, all of these changes for your choice and hence, it is a recursive loop all over.</p>
+]]></content>
+  </entry>
+  
+</feed>
