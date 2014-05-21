@@ -4,7 +4,7 @@
   <title><![CDATA[Personal Rant of a curious mind]]></title>
   <link href="http://shreyasrk.github.io/atom.xml" rel="self"/>
   <link href="http://shreyasrk.github.io/"/>
-  <updated>2014-05-12T21:41:39+05:30</updated>
+  <updated>2014-05-21T09:54:43+05:30</updated>
   <id>http://shreyasrk.github.io/</id>
   <author>
     <name><![CDATA[Shreyas]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hobby Projects Schedule]]></title>
+    <link href="http://shreyasrk.github.io/blog/2014/05/21/side-projects-schedule/"/>
+    <updated>2014-05-21T09:45:53+05:30</updated>
+    <id>http://shreyasrk.github.io/blog/2014/05/21/side-projects-schedule</id>
+    <content type="html"><![CDATA[<p>You&rsquo;re a developer. You have work in your office, a tendency to be updated via Twitter/Hacker News, an affinity towards books and sometimes, staying fit. You have a big list of hobby projects to be carried, you need time to learn new stuff and do awesome things. You also have a time-management problem arising with all these. So what will you do to balance things out?</p>
+
+<p>Simple. Move awesomeness to the weekends &ndash; your projects and learning things. Keep reading and news active during weekdays. You won&rsquo;t have the mood to work on these anyway. Plus, news are dull on weekends.</p>
+
+<p>Weekends are the best time for things you love &ndash; 3 nights and 2 days of pure time. Be it coding, learning or er.. movies with a drink.</p>
+
+<p>Finally realized.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Traits of a Great Developer]]></title>
