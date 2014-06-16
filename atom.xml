@@ -4,7 +4,7 @@
   <title><![CDATA[Personal Rant of a curious mind]]></title>
   <link href="http://shreyasrk.github.io/atom.xml" rel="self"/>
   <link href="http://shreyasrk.github.io/"/>
-  <updated>2014-05-21T09:54:43+05:30</updated>
+  <updated>2014-06-16T09:01:33+05:30</updated>
   <id>http://shreyasrk.github.io/</id>
   <author>
     <name><![CDATA[Shreyas]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Software Development]]></title>
+    <link href="http://shreyasrk.github.io/blog/2014/06/16/software-development/"/>
+    <updated>2014-06-16T08:32:45+05:30</updated>
+    <id>http://shreyasrk.github.io/blog/2014/06/16/software-development</id>
+    <content type="html"><![CDATA[<p>In my new organization, I&rsquo;m actually beginning to understand the various flavours of developing software and have learnt one thing &ndash; It isn&rsquo;t as easy as it looks to the outside world. There are tons of procedures, processes and responsibilities to look after before the stable product code lies in the hands of the end user. Let me begin to see what goes where.</p>
+
+<p>Say you have a product. Assume you also have a customer in hand. The customer wants a basic flavour of your product to work accroding to it&rsquo;s expectations. That&rsquo;s when you decide to roll out software to him/her. You now tend to phase out various levels of that product so that it doesn&rsquo;t break in the event of the customr&rsquo;s daily interactions with the product &ndash; on any level of intensity, load or any other factor.</p>
+
+<p>You first begin to work on the core features of the product on your own system and build up your own <strong>local</strong> environment. If the product involves a client-server architecture, you ensure all of the components works in your local system first with 127.0.0.1 as your server IP. You write code, attach testcase to them, check if every process of the product works intact with the testcases.  You also load the database locally, test the product with the database and document the procedure. All of this involves just you, nobody else, at the moment. Then, the components begin to split away from themselves, leading to a distributed architecture. More and more people now begin to do the thing that you&rsquo;re doing but all need to be synchronized with data. The database is usually the first part to be installed as a core, distributed entity. All local instances begin to access data corresponding to their won databases from a single point of contact. The load reduces on your local system and thus, you thus have now set up the first local instance of the process.</p>
+
+<p>After the local instance works, you then freeze your code to a version control system &ndash; you tend to submit your code for your peers to test them with their own testcases to delve with. We need an independently running setup of your product somewhere to test this within the organization for all testers to act upon the single system. Thus, enters the build stage of the process, a crucial component which integrates your code with the product and compiles all of the components on a timely basis for synchronization. Testers act on this setup for the reported features/bugs. Thus, the second stage of the process &ndash; <strong>local site</strong> setup is crucial for local changes. Build is run separately for this.</p>
+
+<p>Now that all your code is been tested and is agreed upon, this will be now moved to the third stage &ndash; the developmental stage. The customer sees that the features are now being tested as part of the developmental process. I&rsquo;m a bit hazy on this topic as this is where developers are detached from the system and it is only development team&rsquo;s QA on the customer side take up further testing and keep on releasing bugs/patches to be fixed. They can either be residing in your organization or in the customer&rsquo;s place. Build is run separately.</p>
+
+<p>The fourth stage is where the actual users come into play &ndash; the user acceptance testing phase. A certain belt of your product&rsquo;s users are picked who test it thoroughly as per the customer&rsquo;s requests and keep reporting for any issues. The customer is convinced only in this stage where he gets a real snapshot of the ongoing process of delivery of the requirements. UAT build is again, separate.</p>
+
+<p>Lastly, once everybody agrees that the code works successfully, the final build is run which thus, releases the product into the production stage &ndash; the real field area of usage. All users of the product use it, benefit from it and in turn, help the customer make money.</p>
+
+<p>Certain things get redundant as the code stage begins to rise stagewise. Developers lose role after dev stage, software delivering agent loses role after UAT and customer after production stage. So, if you see that you report a bug/issue in the software and it gets recorded, be patient to see it get fixed according to a timeline. The way the problem is tracked and fixed takes longer so as to not impact the stability, reliaability and value.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hobby Projects Schedule]]></title>
